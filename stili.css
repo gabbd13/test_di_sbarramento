@@ -1,1 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 
+body {
+    height: 100vh;
+   
+}
+
+.containeruno {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:grey;
+}
+
+.rettangolo {
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: rgb(119, 119, 255);
+}
+
+.containerdue {
+    height: 2rem;
+    width: 100vh;
+    background: grey;
+}
+
+.navbar{
+    height: 1rem;
+    background: grey;
+}
