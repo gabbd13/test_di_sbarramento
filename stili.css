@@ -17,6 +17,34 @@ body {
     background:grey;
 }
 
+nav {
+    
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.logouno {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background: grey;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+header {
+    width: 145rem;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
 .rettangolo {
     height: 2rem;
     width: 10rem;
@@ -27,12 +55,29 @@ body {
 }
 
 .containerdue {
-    height: 2rem;
-    width: 100vh;
-    background: grey;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 4rem;
+    width: 142vh;
+    background: rgb(208, 208, 208);
+    justify-content: flex-start;
 }
 
 .navbar{
     height: 1rem;
     background: grey;
 }
+.containertre {
+display: flex;
+flex-direction: row;
+margin: 50px;
+
+
+}
+
+.rettangolorosa {
+    width: 1000px;
+    height: 400px;
+    background: pink;
+}
+
